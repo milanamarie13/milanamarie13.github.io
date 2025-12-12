@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!-- This page is adapted from w3schools "How to make a link tree website https://www.w3schools.com/howto/howto_website_create_linktree.asp" -->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Add your name below -->
+  <title>Milana Waller</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body class="main-text-color">
+  <!-- Content container. Everything except footer goes here -->
+  <div class="container">
+    <!-- Image and name container. Put your replacement photo—which you should crop to be square—in the images folder, then change the source attribute to images/yourportraitfilename.jpg. This path says, "Look in the images folder for yourportraitfilename.jpg." Be sure to change the alt text, too. -->
+    <div class="image-container">
+      <img src="images/profile.jpg" alt="Me with a cat named Cheddar Bob">
+    </div>
+    <div class="intro">
+      I'm <span class="name"><strong>Milana Waller</strong></span>, a book lover, avid thrifter, and aspiring journalist. Got any book recommendations?
+    </div>
+    <div class="section-header">
+      <h1>My work</h1>
+    </div>
+    <!-- Replace the # inside of the href="#" with your links. -->
+    <div class="links-container">
+      <div class="button toggle">Blog post</div>
+      <div class="slidedown">
+        <div class="description">
+          <h2>Review of Alchemy of Secrets</h2>
+          <p>Stephanie Garber's newest release disappointed me tremendously, and here's why...</p>
+          <a href="https://medium.com/@milana_36199/why-alchemy-of-secrets-disappointed-me-0b17cc862c86" class="external-link" target="_blank">Read</a>
+        </div>
+      </div>
+
+      <div class="button toggle">Video</div>
+      <div class="slidedown">
+        <div class="description">
+          <h2>Babel: A Booktok Gem</h2>
+          <p>Babel is one of the most insightful and articulate novels I've read because of TikTok's recommendations. Here's why I'd recommend it to you!</p>
+          <a href="https://www.youtube.com/shorts/40wn9L7lcbY" class="external-link" target="_blank">Watch</a>
+        </div>
+      </div>
+
+      <div class="button toggle">Podcast</div>
+      <div class="slidedown">
+        <div class="description">
+          <h2>AI's Potential Impact on the Job Market</h2>
+          <p>Our podcast dissects how occupation availability may be impacted by the emerging strenghts of artificial intelligence.</p>
+          <a href="https://soundcloud.com/namyrrep/job-outlook-how-ai-will-affect-jobs-in-the-future" class="external-link" target="_blank">Listen</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Replace # with PDF from Google Docs, or replace the entire section with whatever you want. Or delete it! Or add another section below it!-->
+    <div class="section-header">
+      <h1>About me</h1>
+    </div>
+
+    <div class="links-container">
+      <a href="https://docs.google.com/document/d/1DV4fJR5upb6sAjVCTgiuwk5-Qp6DXqSaf0pTCPPwHhQ/edit?tab=t.0" class="button" target="_blank">Resume</a>
+    </div>
+
+  </div>
+  <div class="footer">
+    <p>© Milana Waller, 2024. Based on a design by <a
+        href="https://www.w3schools.com/howto/howto_website_create_linktree.asp" target="_blank">w3schools</a>.
+    </p>
+  </div>
+  <script type="text/javascript" src="js/slider.js"></script>
+</body>
+
+</html>
